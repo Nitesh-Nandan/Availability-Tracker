@@ -1,0 +1,26 @@
+{
+  "name": "availability-tracker",
+  "version": "1.0.0",
+  "description": "Track locations of all drivers in real-time.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "loaddb": "node scripts/dataloader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitesh-Nandan/Availability-Tracker.git"
+  },
+  "author": "Nitesh Nandan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitesh-Nandan/Availability-Tracker/issues"
+  },
+  "homepage": "https://github.com/Nitesh-Nandan/Availability-Tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  }
+}
